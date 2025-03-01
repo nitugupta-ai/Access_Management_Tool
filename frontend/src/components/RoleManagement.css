@@ -1,0 +1,147 @@
+/* Fullscreen Layout */
+.role-management-container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Blue Gradient */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+  
+  /* Form Styling */
+  .role-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #333;
+  }
+  
+  .role-form h2 {
+    text-align: center;
+  }
+  
+  /* Input Field */
+  .role-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background: #f8f8f8;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .role-form input:focus {
+    border-color: #2a5298;
+    outline: none;
+    background: #eaeaea;
+  }
+  
+  /* Action Buttons */
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .create-btn {
+    background: #27ae60;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .create-btn:hover {
+    background: #219150;
+  }
+  
+  .update-btn {
+    background: #f39c12;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .update-btn:hover {
+    background: #e67e22;
+  }
+  
+  /* Table Styling */
+  .role-table {
+    width: 80%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .role-table th,
+  .role-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .role-table th {
+    background: #1a252f;
+    color: white;
+  }
+  
+  .role-table tbody tr:nth-child(even) {
+    background: #f4f4f4;
+  }
+  
+  .role-table tbody tr:hover {
+    background: rgba(0, 0, 0, 0.07);
+  }
+  
+  /* Edit & Delete Buttons */
+  .edit-btn,
+  .delete-btn {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .edit-btn {
+    background: #f39c12;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background: #e67e22;
+  }
+  
+  .delete-btn {
+    background: #e74c3c;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background: #c0392b;
+  }
+  

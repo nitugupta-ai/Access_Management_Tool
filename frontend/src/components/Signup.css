@@ -1,0 +1,89 @@
+    /* Full-screen container */
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    font-family: "Arial", sans-serif;
+    overflow: hidden;
+  }
+  
+  /* Centered signup box */
+  .signup-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+    backdrop-filter: blur(8px);
+  }
+  
+  /* Heading */
+  h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  /* Input fields */
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+  }
+  
+  /* Placeholder color */
+  .input-field::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Checkbox */
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .checkbox-container input {
+    margin-right: 10px;
+    transform: scale(1.2);
+  }
+  
+  /* Signup button */
+  .signup-btn {
+    width: 100%;
+    padding: 14px;
+    margin-top: 15px;
+    background: #00c6ff;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  /* Button hover effect */
+  .signup-btn:hover {
+    background: #0072ff;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .signup-box {
+      width: 90%;
+      padding: 30px;
+    }
+  }
+  
